@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+} 
+
+
+@keyframes movingClouds {
+    from {
+        transform: rotateX(0deg)
+    }
+    to{
+        transform: rotateX(30deg)
+    }
+
+}
+
+#clouds {
+
+    animation: movingClouds 2s ease-in-out infinite alternate ;
+}
+
+
+
+
